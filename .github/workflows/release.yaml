@@ -24,7 +24,6 @@ jobs:
         with:
           formula-name: gmenv
           homebrew-tap: chrisbsmith/homebrew-greymatter
-          base-branch: master
         env:
           COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
 
